@@ -149,6 +149,8 @@
     </Compile>
     <Compile Include="Models\IndexModel.cs" />
     <Compile Include="Models\Mpaa.cs" />
+    <Compile Include="Models\ReviewListModel.cs" />
+    <Compile Include="Models\ReviewModel.cs" />
     <Compile Include="Models\Top1MovieModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

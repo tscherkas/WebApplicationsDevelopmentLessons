@@ -6,5 +6,6 @@ namespace MovieProject.Models
     public class IndexModel
     {
         public Top1MovieModel Top1Movie { get; set; }
+        public ReviewListModel ReviewsList { get; set; }
     }
 }

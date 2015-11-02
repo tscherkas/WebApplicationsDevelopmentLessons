@@ -5,12 +5,16 @@ namespace MovieProject.Models
 {
     public class Top1MovieModel
     {
+        public Top1MovieModel()
+        {
+            Genres = new List<string>();
+        }
         public string ImageUri { get; set; }
         public string Name { get; set; }
         public Mpaa MPAA { get; set; }
         public ICollection<string> Directors { get; set; }
         public float Rating { get; set; }
-        public ICollection<string> Genres { get; set; }
+        public ICollection<string> Genres { get;  }
         public DateTime ReleaDate { get; set; }
         public string Slogan { get; set; }
 

@@ -25,6 +25,12 @@
 
         <div class="review-slider">
             <ul id="flexiselDemo1">
+                @foreach (ReviewModel item in @Model.ReviewsList.Reviews)
+                {
+                    <li>
+                        <img src="@item.ImageURI" alt="" />
+                    </li>
+                }<!--
                 <li>
                     <img src="/images/r1.jpg" alt=""/>
                 </li>
@@ -42,7 +48,7 @@
                 </li>
                 <li>
                     <img src="/images/r6.jpg" alt=""/>
-                </li>
+                </li>-->
             </ul>
             <script type="text/javascript">
                 $(window).load(function() {
